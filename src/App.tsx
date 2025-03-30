@@ -106,7 +106,7 @@ const data = [
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="container">
       <h1 style={{ textAlign: "center" }}>Simple Table</h1>
       <SimpleTable columnDefs={columnDefs} data={data} />
     </div>
